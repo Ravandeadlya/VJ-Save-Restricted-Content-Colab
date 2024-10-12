@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Expose a port to Containers 
-EXPOSE 8080
+EXPOSE 8000
 
 # Command to run on server
 CMD gunicorn app:app & python3 bot.py
