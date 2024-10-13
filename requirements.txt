@@ -1,7 +1,8 @@
 # pyrogram
 pyrofork
 tgcrypto
-pymongo[srv]==3.12.3
+#just trying to deploy two type of bot by botcluster after try delete below and. activate it pymongo[srv]==3.12.3
+pymongo[srv]
 Flask==1.1.2
 gunicorn==20.1.0
 Jinja2==3.0.3
